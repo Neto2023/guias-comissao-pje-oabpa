@@ -1,0 +1,40 @@
+# Guias na identidade da Seccional (OAB/PA)
+
+Versão 1, gerada em 16/11/2026, para levar ao aval da Seccional. Nada foi publicado. Os guias da Comissão de Direito Digital (CDD) da Subseção Marabá continuam no ar sem alteração.
+
+## Arquivos
+
+| Arquivo | O que é |
+|---|---|
+| `guia-pje_seccional_v1.html` | Guia Prático do PJe, assinado pela Comissão Estadual de Apoio Institucional ao PJe |
+| `guia-honorarios_seccional_v1.html` | Guia de Honorários, na identidade da Ordem dos Advogados do Brasil, Seção do Pará (OAB/PA) |
+| `amostras/amostras_layout_v1.html` | Amostras A e B do layout (escolhida: A) |
+| `_referencia_originais_CDD/` | Cópia dos originais publicados pela CDD, sem alteração |
+| `scripts/build_guias_seccional_v1.py` | Gera as duas versões a partir dos originais (reproduzível) |
+
+Para gerar de novo:
+
+```
+python -I scripts/build_guias_seccional_v1.py _referencia_originais_CDD scripts/assets/oab_para_painel_comissao.jpeg scripts/assets/fontes_barlow .
+```
+
+## Decisões (16/11/2026)
+
+1. Layout: Opção A, a mesma moldura do Painel de Jurimetria da Comissão. Inclui faixa azul, barra branca com a marca da OAB Pará, capa branca com sublinhado vermelho e rodapé marinho. Fonte Barlow embutida, fundo branco.
+2. Guia do PJe: assinatura da Comissão Estadual de Apoio Institucional ao PJe, com nota de origem no rodapé ("1ª edição: Guia CDD 001/2026"). O canal de ajuda é o e-mail apoio_pje@oabpa.org.br, e o WhatsApp da CDD foi retirado.
+3. Guia de Honorários: identidade da OAB/PA, sem comissão. O workshop de novembro e o contato da CDD foram retirados. O grupo Crimes Cibernéticos ficou como estava (valores da proposta CDD com selo, até a errata).
+
+## Versão 2 do Guia do PJe (16/11/2026)
+
+`guia-pje_seccional_v2.html` (versão 1.1) é a v1 com a logo oficial da Comissão, que está em `logo_comissao/OFICIAL/`. A logo aparece na capa, no rodapé e no cartão, e o "PJe" virou o ícone da aba. A barra superior continua com a marca OAB Pará. O Guia de Honorários não mudou, porque é da OAB/PA e não da Comissão. Para gerar de novo:
+
+```
+python -I scripts/build_guia_pje_seccional_v2.py guia-pje_seccional_v1.html logo_comissao/OFICIAL guia-pje_seccional_v2.html
+```
+
+## Pontos para o aval da Seccional
+
+- Nenhum dos dois guias traz assinatura pessoal. Se a Seccional quiser, dá para incluir o nome de quem preside a Comissão (PJe) ou outro responsável.
+- O Guia de Honorários ficou sem contato. Falta indicar se haverá algum, e qual.
+- O Guia do PJe tem conteúdo conferido em agosto de 2026 (fontes de 31/07 e 13/08). Vale reconferir os contatos dos tribunais antes da divulgação.
+- O texto da seção de Direito Digital do Guia de Honorários ainda credita a elaboração à CDD da Subseção Marabá, o que é um dado factual da Tabela.
