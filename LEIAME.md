@@ -26,10 +26,18 @@ python -I scripts/build_guias_seccional_v1.py _referencia_originais_CDD scripts/
 
 ## Versão 2 do Guia do PJe (16/11/2026)
 
-`guia-pje_seccional_v2.html` (versão 1.1) é a v1 com a logo oficial da Comissão, que está em `logo_comissao/OFICIAL/`. A logo aparece na capa, no rodapé e no cartão, e o "PJe" virou o ícone da aba. A barra superior continua com a marca OAB Pará. O Guia de Honorários não mudou, porque é da OAB/PA e não da Comissão. Para gerar de novo:
+`guia-pje_seccional_v2.html` (versão 1.1) é a v1 com a logo oficial da Comissão, que está em `logo_comissao/OFICIAL/`. A logo aparece na capa, no rodapé e no cartão, e o "PJe" virou o ícone da aba. A barra superior continua com a marca OAB Pará. Para gerar de novo:
 
 ```
 python -I scripts/build_guia_pje_seccional_v2.py guia-pje_seccional_v1.html logo_comissao/OFICIAL guia-pje_seccional_v2.html
+```
+
+## Versão 2 do Guia de Honorários (16/11/2026)
+
+`guia-honorarios_seccional_v2.html` (versão 1.1) passa a sair pela Comissão Estadual de Apoio Institucional ao PJe, como o Guia do PJe. A logo da Comissão aparece na capa e no rodapé, o nome dela está na faixa azul e o "PJe" é o ícone da aba. O conteúdo não mudou, inclusive o grupo Crimes Cibernéticos. Para gerar de novo:
+
+```
+python -I scripts/build_guia_honorarios_seccional_v2.py guia-honorarios_seccional_v1.html logo_comissao/OFICIAL guia-honorarios_seccional_v2.html
 ```
 
 ## Pontos para o aval da Seccional
