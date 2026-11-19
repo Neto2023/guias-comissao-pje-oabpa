@@ -32,6 +32,14 @@ python -I scripts/build_guias_seccional_v1.py _referencia_originais_CDD scripts/
 python -I scripts/build_guia_pje_seccional_v2.py guia-pje_seccional_v1.html logo_comissao/OFICIAL guia-pje_seccional_v2.html
 ```
 
+## Versão 3 do Guia do PJe (18/11/2026)
+
+`guia-pje_seccional_v3.html` (versão 1.2) é a v2 com a referência à Resolução CNJ nº 185/2013 atualizada. A última alteração dela agora é a Resolução CNJ nº 703/2026 (DJe/CNJ de 12/11/2026), que inclui os §§ 5º e 6º no art. 4º (assinatura eletrônica avançada gov.br). Ela não mexe nos arts. 8º a 12, então as citações do guia aos arts. 4º, § 2º, 9º e 11 continuam corretas. Mudaram só a nota do quadro "B · Resolução CNJ nº 185/2013", a lista de fontes, a versão e a data. Conferido em https://atos.cnj.jus.br/atos/detalhar/1933. Para gerar de novo:
+
+```
+python -I scripts/build_guia_pje_seccional_v3.py guia-pje_seccional_v2.html guia-pje_seccional_v3.html
+```
+
 ## Versão 2 do Guia de Honorários (16/11/2026)
 
 `guia-honorarios_seccional_v2.html` (versão 1.1) passa a sair pela Comissão Estadual de Apoio Institucional ao PJe, como o Guia do PJe. A logo da Comissão aparece na capa e no rodapé, o nome dela está na faixa azul e o "PJe" é o ícone da aba. O conteúdo não mudou, inclusive o grupo Crimes Cibernéticos. Para gerar de novo:

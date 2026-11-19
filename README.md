@@ -2,7 +2,8 @@
 
 Material da Comissão Estadual de Apoio Institucional ao Processo Judicial Eletrônico (PJe) da Ordem dos Advogados do Brasil, Seção do Pará (OAB/PA). O site dos guias (GitHub Pages) ainda não está no ar: a divulgação espera o aval da Seccional.
 
-- `guia-pje_seccional_v2.html`: Guia Prático do PJe, versão 1.1, com a logo oficial da Comissão (a mais recente).
+- `guia-pje_seccional_v3.html`: Guia Prático do PJe, versão 1.2, com a referência à Resolução CNJ nº 185/2013 atualizada até a Resolução CNJ nº 703/2026 (a mais recente).
+- `guia-pje_seccional_v2.html`: Guia Prático do PJe, versão 1.1, com a logo oficial da Comissão.
 - `guia-honorarios_seccional_v2.html`: Guia de Honorários, versão 1.1, com a logo oficial da Comissão (a mais recente).
 - `guia-pje_seccional_v1.html` e `guia-honorarios_seccional_v1.html`: versões 1.0 na identidade da Seccional.
 - `logo_comissao/OFICIAL/`: logo oficial da Comissão (horizontal, perfil do WhatsApp e favicon).
